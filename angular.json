@@ -28,6 +28,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -91,6 +93,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -124,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "seccion2"
+  "defaultProject": "seccion2",
+  "cli": {
+    "analytics": "ad7917fb-319f-483f-b605-f2e6823d41a9"
+  }
 }
